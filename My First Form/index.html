@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head style="background-color: crimson;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
 
-<body style="background-color: crimson;">
-    <h1 style="font-weight: bold;">Form</h1>
+<body style="background-color: rgb(221, 164, 175);">
+    <h1 style="font-weight: bold;background-color: crimson;border-radius: 25px;text-align: center;max-width: 500px">Form</h1>
     <form action="null" type="post">
-        <div style="font-family: cursive;">
+        <div style="font-family: cursive;border-radius:25px;text-align: center;background-color: crimson; ;max-height: 60px; max-width: 500px">
             <label for="Name">Enter Name -></label>
             <input type="text" id="Name" name="Name" placeholder="Enter Your Name " required>
         </div>
         <p></p>
-        <div style="font-family: cursive;">
+        <div style="font-family: cursive;border-radius:25px;text-align: center;background-color: crimson; max-width: 500px;max-height: 60px;">
             <label for="Age">Enter Age -></label>
             <input type="number" id="Age" name="Age" placeholder="Enter Your Age " max="100" required>
         </div>
         <p></p>
-        <div style="font-family: cursive;">
+        <div style="font-family: cursive;border-radius:25px;text-align: center;background-color: crimson; max-width: 500px;max-height: 60px;">
             <label for="Gender">Select Your Gender:</label>
             <input type="radio" id="Male" name="Gender" value="Male">
             <label for="Male">Male <img height="50" src="male.png" alt="Male Symbol "> </label>
@@ -28,11 +27,12 @@
             <label for="Female">Female<img height="50"  src="yt.png" alt="Female Symbol"></label>
         </div>
         <p></p>
-        <div style="font-family: cursive;">
+        <div style="font-family: cursive;border-radius:25px;text-align: center;background-color: crimson; max-width: 500px;">
             <div><label for="Bio">Tell Something about you</label></div>
             <textarea name="Bio" id="Bio" cols="50" rows="15"></textarea>
         </div>
-        <div style="font-family: cursive;">
+        <p></p>
+        <div style="font-family: cursive;border-radius:25px;text-align: center;background-color: crimson; max-width: 500px;max-height: 60px;">
             <label for="SocialMedia">Enter Your Favourite Social Media Platfrom</label>
             <select name="SocialMedia" id="SocialMedia">
                 <option value="no"> </option>
@@ -45,21 +45,21 @@
             </select>
         </div>
         <p></p>
-        <div style="font-family: cursive;">
+        <div style="font-family: cursive;border-radius:25px;text-align: center;background-color: crimson; max-width: 500px;max-height: 60px;">
             <label for="City">Enter Your City -></label>
             <input type="text" id="City" name="City" placeholder="Enter Your City " required>
         </div>
         <p></p>
-        <div style="font-family: cursive;">
+        <div style="font-family: cursive;border-radius:25px;text-align: center;background-color: crimson; max-width: 500px;max-height: 60px;">
             <label for="Pincode">Enter Your Pincode of Atm -></label>
             <input type="password" id="Pincode" name="Pincode" placeholder="Enter Your Pincode of Atm " maxlength="4"
                 required>
         </div>
         <p></p>
-        <span style="font-family: cursive;">
+        <span>
             <input type="submit">
         </span>
-        <span style="font-family: cursive;">
+        <span>
             <input type="reset">
         </span>
     </form>
